@@ -1,0 +1,234 @@
+body{
+     background-color: #ece6e6;
+     font-family: 'Roboto', sans-serif;
+     
+        
+}
+
+.welcome{
+    background-color: #ffffff;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%); 
+}
+
+.user{
+    font-size: 10px;
+    margin-top: 22px;
+    margin-left: 24px;
+    color: black;
+    display: inline-block;
+}
+
+.right{
+    display: inline-block;
+    position: fixed;
+    right: 40px;
+    top: 16px;
+}
+
+.butt{
+    font-size: 14px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 6px 10px;
+    border: none;
+    outline: none;
+    background-color: #2E933C;
+    
+}
+
+.butt:hover{
+    transition-duration: 0.2s;
+     transform: translateY(-2px);
+}
+
+.container{
+    background-size: 1914px 394px;
+    border-radius: 13px;
+    height: 264px;
+    width: 100%;
+    margin: 0px 0px;
+    display: flex;
+
+}
+
+.container h3{
+    font-size: px;
+    margin: 0px auto;
+    color: lemonchiffon;
+}
+
+.btn{
+    color: white;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-left: 144px;
+    background-color: #2E933C;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 8px 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.btn:hover{
+    transition-duration: 0.2s;
+    transform: translateY(-2px);
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    
+}
+.Music{
+    width: auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 3px;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.Music h3{
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.Music ul{
+    margin-left: 25px;
+    margin-bottom: 10px;
+    
+}
+
+.Music li{
+    margin: 3px;
+    width: 50%;
+
+}
+
+.Music:hover{
+    background-color: white;
+   box-shadow: 0px 0px 13px -5px rgba(0,0,0,0.75);
+    
+    
+}
+
+.Movie{
+    background-color: white;
+    width: auto;
+    border-radius: 8px;
+    box-shadow: 3px;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 45px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.Movie h3{
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.Movie ul{
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+.Movie li{
+    margin: 3px;
+    width: 50%;
+
+}
+
+.Movie:hover{
+    background-color: white;
+    box-shadow: 0px 0px 13px -5px rgba(0,0,0,0.75);
+}
+
+.Exercise{
+    background-color: white;
+    width: auto;
+    border-radius: 8px;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 45px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    
+}
+.Exercise h3{
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.Exercise ul{
+    margin-left: 25px;
+    margin-bottom: 10px;
+    
+}
+
+.Exercise li{
+    margin: 3px;
+    width: 50%;
+}
+
+.Exercise:hover{
+    background-color: white;
+    box-shadow: 0px 0px 13px -5px rgba(0,0,0,0.75);
+}
+
+.Other{
+    background-color: white;
+    width: auto;
+    border-radius: 8px;
+    box-shadow: 3px;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    margin-left: 45px;   
+
+    
+}
+
+.Other h3{
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.Other ul{
+     margin-left: 25px;
+    margin-bottom: 10px;
+    
+}
+
+.Other li{ 
+    margin: 3px;
+    width: 50%;
+}
+
+.Other:hover{
+     background-color: white;
+   box-shadow: 0px 0px 13px -5px rgba(0,0,0,0.75);
+}
